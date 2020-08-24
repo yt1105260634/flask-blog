@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # flask-2002
 2002flask项目
 
@@ -20,3 +21,7 @@ apps
         favicon.ico
     
 manager.py  # 启动文件  
+=======
+# flask-blog
+flask-blog
+>>>>>>> 35c3f98501230b91a0742fe8004e53ac283aa984
