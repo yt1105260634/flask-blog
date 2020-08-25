@@ -2,29 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c03c2668-aca8-4be6-8f2c-c62d96b0397e" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Blog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/email.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/exts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/forms/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/models/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/templates/comment/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/templates/mains/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/templates/users/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/templates/users/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/views/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/views/mains.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/views/posts.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/views/users.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/models/users.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/templates/email/activate.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/templates/email/activate.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/email.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/email.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/exts.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/exts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manager.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +21,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Flask Main" />
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -44,7 +30,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gXLOR9GATIBTxD3rFUuV2xOt6C" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -66,7 +54,7 @@
   <component name="RunManager">
     <configuration name="Blog" type="Python.FlaskServer">
       <module name="Blog" />
-      <option name="target" value="$PROJECT_DIR$/manage.py" />
+      <option name="target" value="$PROJECT_DIR$/manager.py" />
       <option name="targetType" value="PATH" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -91,7 +79,9 @@
       <option name="presentableId" value="Default" />
       <updated>1598255957797</updated>
       <workItem from="1598255960892" duration="9660000" />
-      <workItem from="1598267927941" duration="1150000" />
+      <workItem from="1598267927941" duration="4169000" />
+      <workItem from="1598273822791" duration="1579000" />
+      <workItem from="1598317483731" duration="5483000" />
     </task>
     <servers />
   </component>
@@ -99,6 +89,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="997" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598318341953">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="997" y="268" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598318341953" />
     <state x="926" y="148" key="SettingsEditor" timestamp="1598255991376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
